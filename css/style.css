@@ -1,0 +1,100 @@
+
+@font-face {
+  font-family:  Inconsolata;
+  src: url(/fonts/SourceCodePro-VariableFont_wght.ttf);
+}
+
+
+.has-same-height .card {
+    height: 320px;
+    overflow: hidden;
+  }
+  
+  .card-content h3 {
+    text-align: center;
+  }
+  
+  .table-profile td,
+  th {
+    border: none !important;
+  }
+  
+  .table-profile td:first-of-type {
+    font-weight: bold;
+  }
+  
+  .skills-content .media {
+    margin: 0 !important;
+    padding: 4px !important;
+    border: 0 !important;
+  }
+  
+  .skills-content .progress {
+    height: 4px !important;
+  }
+  
+  .custom-tags {
+    text-align: center !important;
+    display: block;
+  }
+  
+  .portfolio-container .card {
+    margin-bottom: 2em;
+  }
+  
+  .section-heading {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  
+  .static-img{
+
+    /* background: linear-gradient(to right, rgba(255, 0, 110, 0.9), rgba(114, 9, 183, 0.5), rgba(0, 187, 255, 0.7), rgba(240, 240, 240, 0.8)); */
+
+    background-image:   linear-gradient(150deg, 
+    rgba(255, 0, 110, 0.6) 25%, 
+    rgba(114, 9, 183, 0.3) 40%, 
+    rgba(0, 187, 255, 0.5)  100%),url('/img/office.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+
+  /* Ícone básico */
+.icon-hover {
+    color: #fff;
+    font-size: 48px; /* Tamanho do ícone */
+    transition: box-shadow 0.3s ease, transform 0.2s ease; /* Transição suave */
+}
+
+/* Efeito quando o usuário passa o mouse */
+.icon-hover:hover {
+    color: rgba(255,255,255,0.8);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    font-size: 50px;
+    transform: translateY(-2px); /* Leve movimento para cima, imitando um clique */
+}
+
+.navbar{
+  background-color: rgba(114, 9, 183, 0.9);
+}
+
+.navbar-burger span{
+  color: #fff;
+}
+
+body{
+  color: #fff;
+}
+
+
+#about{
+  background-color: rgba(0,187,250,0.1);
+}
+
+#skills{
+  background-color: rgba(240,240,2240,0.2);
+}
