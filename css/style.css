@@ -55,7 +55,7 @@
     background-image:   linear-gradient(150deg, 
     rgba(255, 0, 110, 0.6) 25%, 
     rgba(114, 9, 183, 0.3) 40%, 
-    rgba(0, 187, 255, 0.5)  100%),url('/img/office.png');
+    rgba(0, 187, 255, 0.5)  100%),url('../img/office.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
